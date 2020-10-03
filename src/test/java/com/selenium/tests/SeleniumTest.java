@@ -15,9 +15,9 @@ public class SeleniumTest {
 		WebDriver driver;
 		driver = new HtmlUnitDriver();
 		
-		driver.get("https://www.google.com");
+		driver.get("http://54.242.17.177:8080");
 		
-		String expectedTitle = "Google";
+		String expectedTitle = "CSE Blog";
 		String actualTitle = driver.getTitle();
 		assertEquals(expectedTitle, actualTitle);
 		System.out.println(actualTitle);
