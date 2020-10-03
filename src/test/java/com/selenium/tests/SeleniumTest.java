@@ -17,7 +17,7 @@ public class SeleniumTest {
 		
 		driver.get("https://www.google.com");
 		
-		String expectedTitle = "Google";
+		String expectedTitle = "Google1";
 		String actualTitle = driver.getTitle();
 		assertEquals(expectedTitle, actualTitle);
 		System.out.println(actualTitle);
